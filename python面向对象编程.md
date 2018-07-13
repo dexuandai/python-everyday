@@ -129,12 +129,12 @@ print(fangzi)
 1. [vi保存退出":x"与":wq"的区别](https://blog.csdn.net/wuxiaobingandbob/article/details/48809873)
 2. vi设置python格式的自动缩进
 > 在终端输入 vim ~/.vimrc  , 并设置
->   ```
+```
      set tabstop=9
      set expandtab
      set shiftwidth=4
      set softtabstop=4
      filetype indent on
-    ```
+```
 
 3. vi自动补全命令： ctrl+N或ctrl+P
