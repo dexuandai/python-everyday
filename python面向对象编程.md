@@ -1,4 +1,4 @@
-﻿####  \__init__方法和 \__str __方法
+﻿#### python面向对象编程  
 
 ```python
 class Cat:       #定义名称
@@ -72,10 +72,9 @@ print(di_gua)
 di_gua.cook(1)
 print(di_gua)
 ```
-1.1. 为了能够储存多个数据，往往在开发中让一个属性是列表。
-1.2. 对象的属性不会随着方法的调用而结束，一个方法被调用的时候是可以用局部变量来保存数据的。
-1.3. *一个方法被调用的时候是可以用局部变量来保存数据的，但是当这个方法定义结束之后这个方法中的所有数据就没有了。*？
-
+1.1. 为了能够储存多个数据，往往在开发中让一个属性是列表。  
+1.2. 对象的属性不会随着方法的调用而结束，一个方法被调用的时候是可以用局部变量来保存数据的。  
+  
 2.存放家具
 
 ```
@@ -130,12 +129,12 @@ print(fangzi)
 1. [vi保存退出":x"与":wq"的区别](https://blog.csdn.net/wuxiaobingandbob/article/details/48809873)
 2. vi设置python格式的自动缩进
 > 在终端输入 vim ~/.vimrc  , 并设置
->```
-set tabstop=9
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-filetype indent on
-```
+>   ```
+     set tabstop=9
+     set expandtab
+     set shiftwidth=4
+     set softtabstop=4
+     filetype indent on
+    ```
 
 3. vi自动补全命令： ctrl+N或ctrl+P
